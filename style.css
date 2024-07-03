@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Flex-container section start */
+/* .flex-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+padding: 20px;
+background: white;
+text-align: center;
+font-size: 18px;
+} */
+
+
+
+/* felex-containerstyle */
+/* 1.flex direction */
+/* flex-direction: column tepadan pastga yuradi */
+/*  flex-direction: column-reverse; pastdan tepaga */
+/*  flex-direction: row; chapdan o'ngga qarab yuradi */
+/*  flex-direction: row-reverse; o'ngdan chapga qarab yuradi */
+/* 
+.flex-container {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column-reverse;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+padding: 20px;
+background: white;
+text-align: center;
+font-size: 18px;
+} */
+
+
+
+/* flex-wrap: wrap; sig'masa elementlarimizni pastga tushiradi */
+/* .flex-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+width: 200px;
+height: 100px;
+background: white;
+text-align: center;
+font-size: 18px;
+} */
+
+
+/*  flex-flow > direction va wrap ni birlashmasi */
+
+/* .flex-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+width: 200px;
+height: 100px;
+background: white;
+text-align: center;
+font-size: 18px;
+} */
+
+
+
+
+/* justify-content- felex start bir chekgadan boshlaymiz */
+/* space evenly hamma joydan bir hil joy tashlaydi */
+/* space evenly 2 yon tomonidan (o'ng va chap) bir hil joy tashlaydi */
+/* .flex-container {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+width: 200px;
+height: 100px;
+background: white;
+text-align: center;
+font-size: 18px;
+} */
+
+
+
+/* 5.align items y(tikka) o'qi bo'yicha yuradi  */
+.flex-container {
+    border: 10px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: stretch;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+width: 200px;
+height: 100px;
+background: white;
+text-align: center;
+font-size: 18px;
+}
+
+
+
+/* 6.align-content - tepadan pastga qarab yuradi */
+.flex-container {
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    background: dodgerblue;
+}
+.flex-container > div{
+margin: 20px;
+width: 200px;
+height: 100px;
+background: white;
+text-align: center;
+font-size: 18px;
+}
